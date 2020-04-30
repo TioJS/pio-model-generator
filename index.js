@@ -8,6 +8,9 @@ const modelTemplate = require('./source/model.json')
 const modelsPath = path.resolve(pioPath, 'models')
 const sourcePath = path.resolve(__dirname,'source')
 
+rmSync(pioPath)
+fs.mkdirSync(pioPath)
+
 rmSync(modelsPath)
 fs.mkdirSync(modelsPath)
 

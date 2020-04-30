@@ -1,9 +1,9 @@
 const path = require('path')
 
-// 在这里指定需要输出的模型名称
+// 在这里指定需要输出的模型
 const textures = ["animal-costume-racoon", "animal-costume", "bunny-girl-costume-red", "bunny-girl-costume", "cake-costume-choco", "cake-costume-cream", "default-costume", "dress-costume-brown", "dress-costume", "elementary-school-costume-navy", "elementary-school-costume", "fall-dress-costume-beige", "fall-dress-costume-brown", "frill-bikini-costume-green", "frill-bikini-costume-purple", "frill-blouse-costume-green", "frill-blouse-costume-red", "furisode-costume", "halloween-costume", "hanbok-costume-pink", "hanbok-costume-red", "hanbok-costume-skyblue", "hanbok-costume-yellow", "hanbok-costume", "healer-costume", "kids-costume-navy", "kids-costume", "maid-costume-red", "maid-costume", "new2015-costume-pajamas", "new2015-costume", "night-witch-costume-black", "night-witch-costume-gray", "nightsky-costume", "overalls-costume-white", "overalls-costume", "pajamas-costume-pink", "pajamas-costume", "party-dress-costume-brown", "party-dress-costume-purple", "qipao-costume-pink", "qipao-costume-red", "ribbon-dress-costume-red", "ribbon-dress-costume-yellow", "sailor-costume-black", "sailor-costume", "sakura-costume-navy", "sakura-costume", "santa-costume-green", "santa-costume", "sarori-costume", "school-2017-costume-gray", "school-2017-costume-yellow", "school-costume-red", "school-costume", "sfc-uniform-costume-red", "sfc-uniform-costume-yellow", "shaman-costume-black", "shaman-costume-blue", "sinsiroad-shop-costume-junior", "sinsiroad-shop-costume-senior", "sorceress-costume", "sporty-hood-costume-black", "sporty-hood-costume-blue", "star-witch-costume-brown", "star-witch-costume", "succubus-costume-black", "succubus-costume-red", "sukumizu-costume-white", "sukumizu-costume", "summer-dress-costume-blue", "summer-dress-costume-white", "swimsuit-2017-costume-navy", "swimsuit-2017-costume-red", "tirami1-costume", "turtleneck-costume-red", "turtleneck-costume", "valentine-costume-brown", "valentine-costume-pink", "winter-coat-2017-costume-brown", "winter-coat-2017-costume-white", "winter-coat-costume-pink", "winter-coat-costume-white", "winter-costume-white", "winter-costume", "witch-costume-white", "witch-costume"]
-// 在这里指定输出路径
-const pioPath = path.resolve(__dirname,'static/pio')
+// 在这里指定输出路径（最多只能创建一级目录，请保证上层文件夹存在）
+const pioPath = path.resolve(__dirname,'static')
 
 module.exports = {
   textures,
