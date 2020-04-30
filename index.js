@@ -2,9 +2,8 @@ const fs = require('fs')
 const path = require('path')
 
 const { rmSync, cpSync } = require('./utils')
-const { pioPath } = require('./config')
+const { pioPath,textures } = require('./config')
 const modelTemplate = require('./source/model.json')
-const textures = require('./textures')
 
 const modelsPath = path.resolve(pioPath, 'models')
 const sourcePath = path.resolve(__dirname,'source')
